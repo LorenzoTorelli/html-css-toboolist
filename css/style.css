@@ -1,23 +1,61 @@
+/* ******* commons ******* */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: arial;
+    background-color: lightgray;
 }
+/* ******* fine commons ******* */
 
+/* ******* header ******* */
 header {
     height: 100px;
     padding: 15px;
+    background-color: white;
 
 }
 #image {
     height: 60px;
     vertical-align: middle;
+    background-color: white;
+
 
 }
 header h1 {
     display: inline-block;
     font-size: 50px;
     vertical-align: middle;
-
+    background-color: white;
 }
+
+/* ******* fine Header ******* */
+
+/* ******* main ******* */
+.container {
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 400px;
+    background-color: black;
+}
+
+.sezione-1 {
+    border: 1px black solid;
+}
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.blue {
+    color: white;
+    background-color: RGB(71,173,241);
+    border: 0px ;
+}
+.grey {
+    color: RGB(197,203,208);
+    border: 2px RGB(197,203,208) solid;
+}
+
+/* ******* fine main ******* */
