@@ -2,5 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 
+header {
+    height: 100px;
+    padding: 15px;
+
+}
+#image {
+    height: 60px;
+    vertical-align: middle;
+
+}
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+
+}
