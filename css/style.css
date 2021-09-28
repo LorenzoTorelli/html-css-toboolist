@@ -62,8 +62,15 @@ header h1 {
     border: 2px RGB(197,203,208) solid;
     background-color: white;
 }
-/* ******* fine bottoni ******* */
 
+.part {
+    margin-top: 10px;
+}
+/* ******* titolo sezioni ******* */
+.title {
+    background-color: white;
+
+}
 .symbol {
     height: 3px;
     display: inline-block;
@@ -73,5 +80,47 @@ header h1 {
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
+}
+
+/* ******* Element ******* */
+
+.element {
+    margin-top: 15px;
+}
+.ck {
+    display: inline-block;
+    width: 23px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.gree {
+    border-color: green;
+    color: green;
+}
+.red {
+    border-color: red;
+    color: red;
+}
+.element-title {
+    display: inline-block;
+    font-weight: bold;
+
+}
+.quad {
+    display: inline-block;
+    color: white;
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 10px;
+}
+.blu {
+    background-color: RGB(71,173,241);
+}
+
+.purple {
+    background-color: RGB(156,114,228);
 }
 /* ******* fine main ******* */
